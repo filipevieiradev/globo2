@@ -1,0 +1,132 @@
+body {
+  font-family: "Encode Sans", sans-serif;
+}
+
+.titulo {
+  width: 100%;
+  height: 40px;
+  background-color: grey;
+}
+.logo-globo {
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar-icon {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.wrapper {
+  width: 50%;
+  height: 100vh;
+  margin-right: 3px;
+}
+.box {
+  width: 100%;
+  height: 225px;
+  margin-bottom: 3px;
+}
+.card {
+  width: 33%;
+  background-color: azure;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 12px;
+  padding-top: 7px;
+  padding-bottom: 10px;
+}
+
+.card-ge {
+  width: 100%;
+  background-color: azure;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 12px;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+
+.card-bottom {
+  width: 33%;
+  margin-top: 20px;
+
+  padding-top: 7px;
+  padding-bottom: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  height: fit-content;
+
+  background-color: azure;
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 12px;
+
+}
+.box-left-middle,
+.box-left-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.titulo-noticia-card {
+  color: #c4170c;
+  font-size: 14px;
+  font-weight: 500;
+  width: 100%;
+}
+.subtitulo-noticia-card {
+  color: #2f3134;
+  font-size: 20px;
+  font-weight: 700;
+}
+.resumo-noticia-card {
+  color: #2f3134;
+  font-size: 14px;
+  font-weight: 400;
+}
+.selected {
+  border: 5px solid #000;
+}
+.box-left-top{
+  padding-left: 12px;
+}
+.main-news {
+color: #C4160C;
+font-size: 42px;
+font-weight: 700;
+padding-bottom: 29px;
+}
+.main-news-subtitle {
+  color: #303134;
+font-size: 18px;
+font-weight: 500;
+
+}
+.box-ge, .box-gshow {
+  width: 40%;
+  height: 100%;
+
+}
+.wrapper-right{
+  display: flex;
+  justify-content: space-around;
+}
